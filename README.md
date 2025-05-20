@@ -23,7 +23,7 @@
 
 # Blood Cancer Detection: A Deep Learning Approach to Image Classification
 
-![Project Banner](images/banner.png)
+![Project Banner](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/banner.png)
 
 ## 🚀 Project Vision: Empowering Diagnosis through AI
 
@@ -50,7 +50,7 @@ We use the Kaggle API to fetch and unzip them in Colab:
 ```
 
 ---
-![Cancer and non-cancer](images/images1)
+![Cancer and non-cancer](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image1.png)
 ### 2. **Data Preprocessing**
 
 * **File Unification & Labeling**: Images were renamed and merged.
@@ -63,12 +63,12 @@ image = cv2.medianBlur(image, 5)
 ```
 
 📷 **Before & After Preprocessing**
-![Preprocessing Comparison](images/image3)
+![Preprocessing Comparison](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image3.png)
 
 ---
 
 **Close -up of a Blood Cell**
-![Close-up of a Blood Cell](images/image4)
+![Close-up of a Blood Cell](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image4.png)
 
 ### 3. **Class Imbalance Handling**
 
@@ -82,8 +82,8 @@ df_balanced = pd.concat([df_cancer, df_non_cancer])
 
 📊 **Class Distribution**
 
-* Before: ![Before](images/image5)
-* After: ![After](images/image6)
+* Before: ![Before](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image5.png)
+* After: ![After](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image6.png)
 
 ---
 
@@ -143,15 +143,15 @@ for train_idx, val_idx in skf.split(image_paths, labels):
 
 #### ✅ Confusion Matrix
 
-![Confusion Matrix](images/image7)
+![Confusion Matrix](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image7.png)
 
 #### 📉 ROC Curve
 
-![ROC Curve](images/image8)
+![ROC Curve](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image8.png)
 
 #### 📊 Reliability Diagram
 
-![Reliability Diagram](images/image12)
+![Reliability Diagram](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image12.png)
 
 ---
 
