@@ -97,8 +97,6 @@ df_balanced = pd.concat([df_cancer, df_non_cancer])
 
 ---
 
----
-
 ### 4. **Exploratory Data Analysis (EDA)**
 
 * Class distribution plots
