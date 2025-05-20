@@ -50,7 +50,8 @@ We use the Kaggle API to fetch and unzip them in Colab:
 ```
 
 ---
-![Cancer and non-cancer](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image1.png)
+![Cancer](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image1.png)
+![Non-cancer](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image1.1.png)
 ### 2. **Data Preprocessing**
 
 * **File Unification & Labeling**: Images were renamed and merged.
@@ -64,6 +65,8 @@ image = cv2.medianBlur(image, 5)
 
 📷 **Before & After Preprocessing**
 ![Preprocessing Comparison](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image3.png)
+![](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image3.1.png)
+
 
 ---
 
