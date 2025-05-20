@@ -71,6 +71,7 @@ image = cv2.medianBlur(image, 5)
 ---
 
 **Close -up of a Blood Cell**
+
 ![Close-up of a Blood Cell](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image4.png)
 
 ### 3. **Class Imbalance Handling**
@@ -85,8 +86,16 @@ df_balanced = pd.concat([df_cancer, df_non_cancer])
 
 📊 **Class Distribution**
 
-* Before: ![Before](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image5.png)
-* After: ![After](https://github.com/Khizer-Data/Blood-cell-cancer-detection/blob/main/images/image6.png)
+
+**Before:**
+
+![Before](https://raw.githubusercontent.com/Khizer-Data/Blood-cell-cancer-detection/main/images/image5.png)
+
+**After:**
+
+![After](https://raw.githubusercontent.com/Khizer-Data/Blood-cell-cancer-detection/main/images/image6.png)
+
+---
 
 ---
 
